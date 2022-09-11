@@ -1,0 +1,5 @@
+-- vim.g.tokyonight_style = "storm"
+-- vim.g.tokyonight_italic_functions = true
+-- 
+-- vim.cmd[[syntax on]]
+-- vim.cmd[[colorscheme tokyonight]]
