@@ -46,9 +46,9 @@ yabai -m config right_padding                0
 yabai -m config window_gap                   01
 
 # float system preferences
-yabai -m rule --add app="^System Preferences$" manage=off
-yabai -m rule --add app="^1Password$" manage=off
-yabai -m rule --add app="^Finder$" manage=off
+yabai -m rule --add app="^System Preferences$" manage=off layer=above
+yabai -m rule --add app="^1Password$" manage=off layer=above
+yabai -m rule --add app="^Finder$" manage=off layer=above
 
 
 # menu bar indicator

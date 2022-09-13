@@ -14,3 +14,8 @@ vim.keymap.set('n', '<Leader>gc', function()
   neogit.open({"commit"})
   end
 )
+
+vim.keymap.set('n', '<Leader>gp', function()
+  neogit.open({"push"})
+  end
+)
